@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84458D0F184D025900F448D8 /* jsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 84458D0E184D025900F448D8 /* jsonFile.json */; };
 		84F2C1C2184C7AD300EB7534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F2C1C1184C7AD300EB7534 /* Foundation.framework */; };
 		84F2C1C4184C7AD300EB7534 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F2C1C3184C7AD300EB7534 /* CoreGraphics.framework */; };
 		84F2C1C6184C7AD300EB7534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F2C1C5184C7AD300EB7534 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		84F2C1E6184C7AD300EB7534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F2C1C5184C7AD300EB7534 /* UIKit.framework */; };
 		84F2C1EE184C7AD400EB7534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F2C1EC184C7AD400EB7534 /* InfoPlist.strings */; };
 		84F2C1F0184C7AD400EB7534 /* R_JSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2C1EF184C7AD400EB7534 /* R_JSONTests.m */; };
+		84F2C1FB184C7AED00EB7534 /* R_JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F2C1FA184C7AED00EB7534 /* R_JSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84458D0E184D025900F448D8 /* jsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonFile.json; sourceTree = "<group>"; };
 		84F2C1BE184C7AD300EB7534 /* R_JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R_JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2C1C1184C7AD300EB7534 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84F2C1C3184C7AD300EB7534 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +58,8 @@
 		84F2C1EB184C7AD400EB7534 /* R_JSONTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R_JSONTests-Info.plist"; sourceTree = "<group>"; };
 		84F2C1ED184C7AD400EB7534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84F2C1EF184C7AD400EB7534 /* R_JSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_JSONTests.m; sourceTree = "<group>"; };
+		84F2C1F9184C7AED00EB7534 /* R_JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R_JSON.h; sourceTree = "<group>"; };
+		84F2C1FA184C7AED00EB7534 /* R_JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R_JSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,8 @@
 				84F2C1D1184C7AD300EB7534 /* AppDelegate.m */,
 				84F2C1D3184C7AD300EB7534 /* Main_iPhone.storyboard */,
 				84F2C1D6184C7AD300EB7534 /* Main_iPad.storyboard */,
+				84F2C1F9184C7AED00EB7534 /* R_JSON.h */,
+				84F2C1FA184C7AED00EB7534 /* R_JSON.m */,
 				84F2C1D9184C7AD300EB7534 /* ViewController.h */,
 				84F2C1DA184C7AD300EB7534 /* ViewController.m */,
 				84F2C1DC184C7AD300EB7534 /* Images.xcassets */,
@@ -129,6 +136,7 @@
 		84F2C1C8184C7AD300EB7534 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84458D0E184D025900F448D8 /* jsonFile.json */,
 				84F2C1C9184C7AD300EB7534 /* R_JSON-Info.plist */,
 				84F2C1CA184C7AD300EB7534 /* InfoPlist.strings */,
 				84F2C1CD184C7AD300EB7534 /* main.m */,
@@ -235,6 +243,7 @@
 				84F2C1DD184C7AD300EB7534 /* Images.xcassets in Resources */,
 				84F2C1D5184C7AD300EB7534 /* Main_iPhone.storyboard in Resources */,
 				84F2C1CC184C7AD300EB7534 /* InfoPlist.strings in Resources */,
+				84458D0F184D025900F448D8 /* jsonFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +264,7 @@
 			files = (
 				84F2C1DB184C7AD300EB7534 /* ViewController.m in Sources */,
 				84F2C1D2184C7AD300EB7534 /* AppDelegate.m in Sources */,
+				84F2C1FB184C7AED00EB7534 /* R_JSON.m in Sources */,
 				84F2C1CE184C7AD300EB7534 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +484,7 @@
 				84F2C1F5184C7AD400EB7534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F2C1F6184C7AD400EB7534 /* Build configuration list for PBXNativeTarget "R_JSONTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +493,7 @@
 				84F2C1F8184C7AD400EB7534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
