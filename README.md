@@ -1,7 +1,7 @@
 R_JSON
 =================
 
-R_JSON is a small class for asynchronous fetching JSON data based on NSJSONSerialization algorithm, no matter wether it has an array or dictionary structure.
+R_JSON is a small class for asynchronous fetching JSON data based on NSJSONSerialization algorithm.
 
 Usage
 =============
@@ -9,8 +9,8 @@ Usage
 ViewController.h
 -------------
 ```Objective-C
-    //assign R_JSONDelegate to controller
-    @interface ViewController : UIViewController<R_JSONDelegate>
+//assign R_JSONDelegate to controller
+@interface ViewController : UIViewController<R_JSONDelegate>
 ```
 
 ViewController.m
